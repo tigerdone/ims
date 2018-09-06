@@ -1,0 +1,171 @@
+.clearfix{
+    *zoom:1;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.clearparentDiv::after{
+    content: "";
+    display: block;
+    overflow: hidden;
+}
+.main_box{
+    background-color: #a0a0a0;
+    min-width: 1080px;
+}
+.main_header{
+    margin: 0 auto;
+    width: 1080px;
+}
+
+.stair1{
+    padding: 20px;
+
+}
+.stair1_left{
+    float: left;
+}
+.stair1_right{
+    float:right;
+    height: 30px;
+}
+.stair1_right li{
+    transition: all .4s ease-in-out;
+    display: table-cell;
+    vertical-align: middle;
+    height: 53px;
+    padding: 0 15px;
+}
+.stair2{
+    text-align: center;
+    margin: 190px;
+    font-size: 30px;
+    color: #fff;
+}
+.main_body{
+
+
+}
+.body1{
+    background-color: #fff;
+    min-width: 1080px;
+    /*width: 1080px;*/
+    /*margin: 0 auto;*/
+}
+.body1_stair1{
+    padding: 60px 0;
+    text-align: center;
+}
+.body1_stair2{
+    text-align: center;
+
+}
+.title{
+    font-size: 20px;
+    font-weight:bold;
+    text-decoration: underline;
+}
+.title_color{
+    color: #fff;
+}
+.body1_stair3_container{
+    position: relative;
+    width: 1080px;
+    margin: 0 auto;
+    background: url("../img/members.jpg") no-repeat right;
+
+}
+.body1_stair3{
+    background-color: rgba(85, 85, 85, 0.39);
+    margin: 80px 0 0 0;
+}
+.font_weith{
+    width: 600px;
+    margin: 0 auto;
+    line-height: 30px;
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+}
+.body1_stair3_box{
+    width: 590px;
+    text-align: center;
+}
+.body1_stair3 img{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.research_stair{
+    padding: 50px 0 0 0;
+}
+.research_items{
+
+}
+.research_item{
+    width: 140px;
+    height: 120px;
+    padding: 0 0 20px 0;
+
+}
+.research_item i{
+    color: #fff;
+    font-size: 30px;
+}
+.research_item p{
+    color: #fff;
+    margin: 20px 0 0 0;
+}
+
+.icon-container{
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    line-height: 55px;
+    text-align: center;
+    vertical-align: middle;
+    /*position: absolute;*/
+    left: 5px;
+    transition: all 1s;
+
+}
+.icon-container:hover{
+    background-color: #fff;
+}
+.icon-container .icon{
+    color: #D43F52;
+    font-size: 9px;
+    /*position: relative;*/
+    /*top: 14px;*/
+}
+
+
+.body2{
+    background-color: #e2e1dd;
+    min-width: 1080px;
+}
+.body2_container{
+    width: 1080px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 0 130px;
+}
+.program_card{
+    padding: 10px;
+    background-color: #fff;
+}
+.program_card img{
+    max-height: 225px;
+    max-width: 280px;
+    vertical-align:middle;
+}
+.program_card p{
+    text-align: center;
+    margin: 10px;
+}
+
